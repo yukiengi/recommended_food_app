@@ -11,7 +11,12 @@ StringLiterals:
 Rails/FilePath:
   Exclude:
     - 'config/environments/development.rb'
-
 Rails/Output:
   Exclude:
     - 'db/seeds.rb'
+
+Documentation:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 160

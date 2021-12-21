@@ -1,0 +1,22 @@
+require:
+  - rubocop-rails
+
+AllCops:
+  TargetRubyVersion: 3.0.2
+  NewCops: enable
+
+StringLiterals:
+  EnforcedStyle: double_quotes
+
+Rails/FilePath:
+  Exclude:
+    - 'config/environments/development.rb'
+Rails/Output:
+  Exclude:
+    - 'db/seeds.rb'
+
+Documentation:
+  Enabled: false
+
+Layout/LineLength:
+  Max: 160
